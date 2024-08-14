@@ -540,10 +540,7 @@ footer .footer-custom-content {
   width: 100%;
 }
 .post-preview .post-image {
-  float: right;
-  margin-left: 0.625rem;
-  height: 12rem;
-  width: 12rem;
+  display:flexbox;
 }
 .post-preview .post-image {
   filter: grayscale(40%);
@@ -552,11 +549,13 @@ footer .footer-custom-content {
   filter: grayscale(0%);
 }
 .post-preview .post-image img {
-  max-height: 100%;
+  display:flexbox;
+  overflow: hidden;
+  height: 40;
   max-width: 100%;
 }
 .post-preview .post-image-short {
-  margin-top: -2.1875rem;
+ /* margin-top: 2.1875rem; */
 }
 @media (max-width: 767px) {
   .post-preview .post-image {
